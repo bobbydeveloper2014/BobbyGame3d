@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C597C9F62D215297000C1869 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C597C9F52D215297000C1869 /* AppDelegate.m */; };
+		C597C9F82D215297000C1869 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C597C9F72D215297000C1869 /* art.scnassets */; };
+		C597C9FB2D215297000C1869 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C597C9FA2D215297000C1869 /* GameViewController.m */; };
+		C597C9FE2D215297000C1869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C597C9FC2D215297000C1869 /* Main.storyboard */; };
+		C597CA002D21529A000C1869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C597C9FF2D21529A000C1869 /* Assets.xcassets */; };
+		C597CA032D21529A000C1869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C597CA012D21529A000C1869 /* LaunchScreen.storyboard */; };
+		C597CA052D21529A000C1869 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C597CA042D21529A000C1869 /* main.m */; };
+		C597CA0F2D21529A000C1869 /* Bobbygame3dTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C597CA0E2D21529A000C1869 /* Bobbygame3dTests.m */; };
+		C597CA192D21529B000C1869 /* Bobbygame3dUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C597CA182D21529B000C1869 /* Bobbygame3dUITests.m */; };
+		C597CA1B2D21529B000C1869 /* Bobbygame3dUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C597CA1A2D21529B000C1869 /* Bobbygame3dUITestsLaunchTests.m */; };
+		C597CA282D215325000C1869 /* BobbyGame3d.m in Sources */ = {isa = PBXBuildFile; fileRef = C597CA272D215325000C1869 /* BobbyGame3d.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C597CA0B2D21529A000C1869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C597C9E92D215297000C1869 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C597C9F02D215297000C1869;
+			remoteInfo = Bobbygame3d;
+		};
+		C597CA152D21529B000C1869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C597C9E92D215297000C1869 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C597C9F02D215297000C1869;
+			remoteInfo = Bobbygame3d;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2292F73C2EA1F3C3007ADF00 /* Bobbygame3d.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bobbygame3d.entitlements; sourceTree = "<group>"; };
+		C597C9F12D215297000C1869 /* Bobbygame3d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bobbygame3d.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C597C9F42D215297000C1869 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C597C9F52D215297000C1869 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C597C9F72D215297000C1869 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		C597C9F92D215297000C1869 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		C597C9FA2D215297000C1869 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		C597C9FD2D215297000C1869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C597C9FF2D21529A000C1869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C597CA022D21529A000C1869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C597CA042D21529A000C1869 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C597CA0A2D21529A000C1869 /* Bobbygame3dTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bobbygame3dTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C597CA0E2D21529A000C1869 /* Bobbygame3dTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bobbygame3dTests.m; sourceTree = "<group>"; };
+		C597CA142D21529B000C1869 /* Bobbygame3dUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bobbygame3dUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C597CA182D21529B000C1869 /* Bobbygame3dUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bobbygame3dUITests.m; sourceTree = "<group>"; };
+		C597CA1A2D21529B000C1869 /* Bobbygame3dUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bobbygame3dUITestsLaunchTests.m; sourceTree = "<group>"; };
+		C597CA272D215325000C1869 /* BobbyGame3d.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BobbyGame3d.m; sourceTree = "<group>"; };
+		C597CA292D21533C000C1869 /* BobbyGame3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BobbyGame3D.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C597C9EE2D215297000C1869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C597CA072D21529A000C1869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C597CA112D21529B000C1869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C597C9E82D215297000C1869 = {
+			isa = PBXGroup;
+			children = (
+				C597C9F32D215297000C1869 /* Bobbygame3d */,
+				C597CA0D2D21529A000C1869 /* Bobbygame3dTests */,
+				C597CA172D21529B000C1869 /* Bobbygame3dUITests */,
+				C597C9F22D215297000C1869 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C597C9F22D215297000C1869 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C597C9F12D215297000C1869 /* Bobbygame3d.app */,
+				C597CA0A2D21529A000C1869 /* Bobbygame3dTests.xctest */,
+				C597CA142D21529B000C1869 /* Bobbygame3dUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C597C9F32D215297000C1869 /* Bobbygame3d */ = {
+			isa = PBXGroup;
+			children = (
+				2292F73C2EA1F3C3007ADF00 /* Bobbygame3d.entitlements */,
+				C597C9F42D215297000C1869 /* AppDelegate.h */,
+				C597C9F52D215297000C1869 /* AppDelegate.m */,
+				C597C9F72D215297000C1869 /* art.scnassets */,
+				C597C9F92D215297000C1869 /* GameViewController.h */,
+				C597C9FA2D215297000C1869 /* GameViewController.m */,
+				C597C9FC2D215297000C1869 /* Main.storyboard */,
+				C597C9FF2D21529A000C1869 /* Assets.xcassets */,
+				C597CA012D21529A000C1869 /* LaunchScreen.storyboard */,
+				C597CA042D21529A000C1869 /* main.m */,
+				C597CA272D215325000C1869 /* BobbyGame3d.m */,
+				C597CA292D21533C000C1869 /* BobbyGame3D.h */,
+			);
+			path = Bobbygame3d;
+			sourceTree = "<group>";
+		};
+		C597CA0D2D21529A000C1869 /* Bobbygame3dTests */ = {
+			isa = PBXGroup;
+			children = (
+				C597CA0E2D21529A000C1869 /* Bobbygame3dTests.m */,
+			);
+			path = Bobbygame3dTests;
+			sourceTree = "<group>";
+		};
+		C597CA172D21529B000C1869 /* Bobbygame3dUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C597CA182D21529B000C1869 /* Bobbygame3dUITests.m */,
+				C597CA1A2D21529B000C1869 /* Bobbygame3dUITestsLaunchTests.m */,
+			);
+			path = Bobbygame3dUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C597C9F02D215297000C1869 /* Bobbygame3d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C597CA1E2D21529B000C1869 /* Build configuration list for PBXNativeTarget "Bobbygame3d" */;
+			buildPhases = (
+				C597C9ED2D215297000C1869 /* Sources */,
+				C597C9EE2D215297000C1869 /* Frameworks */,
+				C597C9EF2D215297000C1869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bobbygame3d;
+			productName = Bobbygame3d;
+			productReference = C597C9F12D215297000C1869 /* Bobbygame3d.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C597CA092D21529A000C1869 /* Bobbygame3dTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C597CA212D21529B000C1869 /* Build configuration list for PBXNativeTarget "Bobbygame3dTests" */;
+			buildPhases = (
+				C597CA062D21529A000C1869 /* Sources */,
+				C597CA072D21529A000C1869 /* Frameworks */,
+				C597CA082D21529A000C1869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C597CA0C2D21529A000C1869 /* PBXTargetDependency */,
+			);
+			name = Bobbygame3dTests;
+			productName = Bobbygame3dTests;
+			productReference = C597CA0A2D21529A000C1869 /* Bobbygame3dTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C597CA132D21529B000C1869 /* Bobbygame3dUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C597CA242D21529B000C1869 /* Build configuration list for PBXNativeTarget "Bobbygame3dUITests" */;
+			buildPhases = (
+				C597CA102D21529B000C1869 /* Sources */,
+				C597CA112D21529B000C1869 /* Frameworks */,
+				C597CA122D21529B000C1869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C597CA162D21529B000C1869 /* PBXTargetDependency */,
+			);
+			name = Bobbygame3dUITests;
+			productName = Bobbygame3dUITests;
+			productReference = C597CA142D21529B000C1869 /* Bobbygame3dUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C597C9E92D215297000C1869 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C597C9F02D215297000C1869 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					C597CA092D21529A000C1869 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = C597C9F02D215297000C1869;
+					};
+					C597CA132D21529B000C1869 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = C597C9F02D215297000C1869;
+					};
+				};
+			};
+			buildConfigurationList = C597C9EC2D215297000C1869 /* Build configuration list for PBXProject "Bobbygame3d" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C597C9E82D215297000C1869;
+			productRefGroup = C597C9F22D215297000C1869 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C597C9F02D215297000C1869 /* Bobbygame3d */,
+				C597CA092D21529A000C1869 /* Bobbygame3dTests */,
+				C597CA132D21529B000C1869 /* Bobbygame3dUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C597C9EF2D215297000C1869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C597C9F82D215297000C1869 /* art.scnassets in Resources */,
+				C597CA032D21529A000C1869 /* LaunchScreen.storyboard in Resources */,
+				C597CA002D21529A000C1869 /* Assets.xcassets in Resources */,
+				C597C9FE2D215297000C1869 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C597CA082D21529A000C1869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C597CA122D21529B000C1869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C597C9ED2D215297000C1869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C597C9FB2D215297000C1869 /* GameViewController.m in Sources */,
+				C597CA052D21529A000C1869 /* main.m in Sources */,
+				C597C9F62D215297000C1869 /* AppDelegate.m in Sources */,
+				C597CA282D215325000C1869 /* BobbyGame3d.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C597CA062D21529A000C1869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C597CA0F2D21529A000C1869 /* Bobbygame3dTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C597CA102D21529B000C1869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C597CA1B2D21529B000C1869 /* Bobbygame3dUITestsLaunchTests.m in Sources */,
+				C597CA192D21529B000C1869 /* Bobbygame3dUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C597CA0C2D21529A000C1869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C597C9F02D215297000C1869 /* Bobbygame3d */;
+			targetProxy = C597CA0B2D21529A000C1869 /* PBXContainerItemProxy */;
+		};
+		C597CA162D21529B000C1869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C597C9F02D215297000C1869 /* Bobbygame3d */;
+			targetProxy = C597CA152D21529B000C1869 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C597C9FC2D215297000C1869 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C597C9FD2D215297000C1869 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C597CA012D21529A000C1869 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C597CA022D21529A000C1869 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C597CA1C2D21529B000C1869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C597CA1D2D21529B000C1869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C597CA1F2D21529B000C1869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Bobbygame3d/Bobbygame3d.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SZ2D7F8WB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bobby.Bobbygame3d;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C597CA202D21529B000C1869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Bobbygame3d/Bobbygame3d.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SZ2D7F8WB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bobby.Bobbygame3d;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C597CA222D21529B000C1869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SZ2D7F8WB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bobby.Bobbygame3dTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bobbygame3d.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bobbygame3d";
+			};
+			name = Debug;
+		};
+		C597CA232D21529B000C1869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SZ2D7F8WB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bobby.Bobbygame3dTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bobbygame3d.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bobbygame3d";
+			};
+			name = Release;
+		};
+		C597CA252D21529B000C1869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SZ2D7F8WB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bobby.Bobbygame3dUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bobbygame3d;
+			};
+			name = Debug;
+		};
+		C597CA262D21529B000C1869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SZ2D7F8WB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bobby.Bobbygame3dUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bobbygame3d;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C597C9EC2D215297000C1869 /* Build configuration list for PBXProject "Bobbygame3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C597CA1C2D21529B000C1869 /* Debug */,
+				C597CA1D2D21529B000C1869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C597CA1E2D21529B000C1869 /* Build configuration list for PBXNativeTarget "Bobbygame3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C597CA1F2D21529B000C1869 /* Debug */,
+				C597CA202D21529B000C1869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C597CA212D21529B000C1869 /* Build configuration list for PBXNativeTarget "Bobbygame3dTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C597CA222D21529B000C1869 /* Debug */,
+				C597CA232D21529B000C1869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C597CA242D21529B000C1869 /* Build configuration list for PBXNativeTarget "Bobbygame3dUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C597CA252D21529B000C1869 /* Debug */,
+				C597CA262D21529B000C1869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C597C9E92D215297000C1869 /* Project object */;
+}
